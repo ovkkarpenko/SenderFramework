@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c453caa-db2d-4aed-93ab-ddcbce614c74" name="Default" comment="- deleted unused files" />
+    <ignored path="$USER_HOME$/Library/Caches/AppCode2017.1/DerivedData/SENDER-cqtkchssqahgtabcpcgrbbssrwpa/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SENDER" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MWCometParser.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SenderFramework/Server/MW Swift Server/MWCometParser.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3614">
+              <caret line="278" column="0" lean-forward="false" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageCellBuilder.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Message Cell Builder/MessageCellBuilder.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2171">
+              <caret line="169" column="29" lean-forward="false" selection-start-line="169" selection-start-column="29" selection-end-line="169" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBConsoleManager.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SenderFramework/Views/FML/FML Classes/PBConsoleManager.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageViewModel.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Models/MessageViewModel.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1716">
+              <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageViewBuilder.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Message View Builder/MessageViewBuilder.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatViewController.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/View/ChatViewController.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17745">
+              <caret line="1366" column="61" lean-forward="true" selection-start-line="1366" selection-start-column="61" selection-end-line="1366" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageContainerCell.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Message Cell/MessageContainerCell.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>updated</find>
+      <find>c</find>
+      <find>handlechat</find>
+      <find>willd</find>
+      <find>updat</find>
+      <find>lastreadme</find>
+      <find>wereadded</find>
+      <find>unreadCount =</find>
+      <find>weread</find>
+      <find>addmessagev</find>
+      <find>lastreadmessage =</find>
+      <find>handlechatsc</find>
+      <find>unread</find>
+      <find>lastReadMessage</find>
+      <find>unreadco</find>
+      <find>forceopenh</find>
+      <find>forceopen</find>
+      <find>didReceiveForceOpenFormWith</find>
+      <find>wForceOpen</find>
+      <find>routeSysID</find>
+      <find>forceopen&quot;</find>
+      <find>wforceop</find>
+      <find>parsingre</find>
+      <find>wforce</find>
+      <find>forceop</find>
+      <find>wBuildRegularMessage</find>
+      <find>formmessa</find>
+      <find>form</find>
+      <find>sizi</find>
+      <find>message.author</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>// MARK</replace>
+      <replace>BitcoinSettings</replace>
+      <replace>TermsConditions</replace>
+      <replace>callRobot</replace>
+      <replace>MWSenderFullAuthorizationInteractor</replace>
+      <replace>MWSenderFullAuthorizationPresenter</replace>
+      <replace>MWSenderFullAuthorizationRouter</replace>
+      <replace>SSO</replace>
+      <replace>NetworkStatus</replace>
+      <replace>[NetworkStatus</replace>
+      <replace>[SenderCore sharedCore].application</replace>
+      <replace>MWReachability</replace>
+      <replace>:</replace>
+      <replace>Middleware Inc.</replace>
+      <replace>//MARK :</replace>
+      <replace>profilePhotoHidden</replace>
+      <replace>profileNameHidden</replace>
+      <replace>.green</replace>
+      <replace>return view</replace>
+      <replace>SendBar</replace>
+      <replace>MessageManagerCompletion</replace>
+      <replace>self.collectionview!</replace>
+      <replace>self.collectionview</replace>
+      <replace>self.collectionView</replace>
+      <replace>(let action):</replace>
+      <replace>func sizeOfViewWith&lt;T: MessageViewBuilderProtocol&gt;(viewBuilder: T, maxWidth: CGFloat) -&gt; CGSize</replace>
+      <replace />
+      <replace>Group</replace>
+      <replace>layoutFor(keyObject</replace>
+      <replace>forKeyObject: viewModel</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/SenderFramework/Views</dir>
+      <dir>$PROJECT_DIR$/SenderFramework/Views/Main</dir>
+      <dir>$PROJECT_DIR$/SenderFramework/Views/Main/Super Container</dir>
+      <dir>$PROJECT_DIR$/SenderFramework/Views/Main/Page Container</dir>
+      <dir>$PROJECT_DIR$/SenderFramework/Views/Main/MainPage/Wireframe</dir>
+      <dir>$PROJECT_DIR$/SenderFramework/Views/Wireframes</dir>
+      <dir>$PROJECT_DIR$/SenderFramework/Model Builders</dir>
+      <dir>$PROJECT_DIR$/SenderFramework</dir>
+      <dir>$USER_HOME$/Library/Caches/AppCode2017.1/DerivedData/SENDER-cqtkchssqahgtabcpcgrbbssrwpa/Build/Products/Upload-iphoneos</dir>
+      <dir>$USER_HOME$/Library/Caches/AppCode2017.1/DerivedData/SENDER-cqtkchssqahgtabcpcgrbbssrwpa/Build/Products/Upload-iphoneos/GoogleToolboxForMac</dir>
+      <dir>$PROJECT_DIR$/SenderFramework/Views/FML</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Roman Serga &lt;romikser@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SenderFramework/Views/FML/FML Classes/Views/PBInputTextView.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Core Data/Models/Dialog.h" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Send Bar/Send Bar/View/SBCoordinator/SBCoordinator.h" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Models/ChatViewModel.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Contract/ChatContract.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Presenter/ChatPresenter.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Audio Recorder/AudioRecorder.h" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Audio Player/AudioPlayer.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Audio Recorder/AudioRecorder.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Send Bar/Send Audio/RecordAudioView.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Send Bar/Send Bar/View/SBCoordinator/SBCoordinator.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Server/Comet/CometController.h" />
+        <option value="$PROJECT_DIR$/SenderFramework/Server/Comet/CometController.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Notifications/SenderNotifications.h" />
+        <option value="$PROJECT_DIR$/SenderFramework/Notifications/SenderNotifications.m" />
+        <option value="$PROJECT_DIR$/lib/CoreBitcoin/include/openssl/ts.h" />
+        <option value="$PROJECT_DIR$/SenderFramework/Authorization/Server/SenderFullAuthorizationServer.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Authorization/Facade/MWSenderAuthorizationFacade.h" />
+        <option value="$PROJECT_DIR$/SenderFramework/Authorization/Router/SenderFullAuthorizationRouter.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Chats List/View/ChatListViewController+UpdatesHandling.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Chat Settings/Contract/ChatSettingsContract.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Chat Settings/Presenter/ChatSettingsPresenter.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Chat Settings/Interactor/ChatSettingsInteractor.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Chat Settings/View/ChatSettingsPhoneTableViewCell/ChatSettingsPhoneTableViewCell.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Chat Settings/View/ChatSettingsViewController.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Chat Settings/Models/ChatSettingsChatViewModel.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Core Data/Models/Settings.h" />
+        <option value="$PROJECT_DIR$/SenderFramework/Core Data/Models/Settings.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Server/Server Facade/ServerFacade.h" />
+        <option value="$PROJECT_DIR$/SenderFramework/Server/Server Facade/ServerFacade.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/SenderCore.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Send Bar/Send Bar/View/SBItemView/SBItemView.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Settings/View/SettingsViewController.h" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Settings/Interactor/SettingsInteractor.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Settings/Data Manager/SettingsDataManager.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Settings/Contract/SettingsContract.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Settings/View/SettingsViewController.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Settings/Presenter/SettingsPresenter.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Settings/Eraser/SettingsEraser.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Authorization/Facade/MWSenderAuthorizationFacade.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Core Data/CDFacade/CoreDataFacade.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Color Palette/SenderStylePalette.m" />
+        <option value="$PROJECT_DIR$/SENDER/SenderAppDelegate.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Super Chat List View Controller/SuperChatListViewController.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Entity Picker/View/ChatPickerViewController.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/View/ChatViewController.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/FML/FML Classes/PBConsoleManager.m" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Models/ChatMessagesViewModel.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Interactor/ChatInteractor.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Server/MW Swift Server/MWCometParser.swift" />
+        <option value="$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Message Cell Builder/MessageCellBuilder.swift" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-765" />
+    <option name="y" value="-1920" />
+    <option name="width" value="1080" />
+    <option name="height" value="1920" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>BashSupport</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralObjective-C</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Objective-C</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>PropertiesObjective-C</id>
+          </State>
+          <State>
+            <id>SwiftLint</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>BashSupport</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="false" />
+      <autoscrollFromSource />
+      <sortByType ProjectPane="false" />
+      <manualOrder ProjectPane="true" />
+      <foldersAlwaysOnTop value="false" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SENDER" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SENDER" type="1d218c8b:XcodeProjectNode" />
+              <item name="SenderFramework" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SENDER" type="1d218c8b:XcodeProjectNode" />
+              <item name="SenderFramework" type="fcab9f18:XcodeViewNode" />
+              <item name="Views" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SENDER" type="1d218c8b:XcodeProjectNode" />
+              <item name="SenderFramework" type="fcab9f18:XcodeViewNode" />
+              <item name="Views" type="fcab9f18:XcodeViewNode" />
+              <item name="Chats List" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SENDER" type="1d218c8b:XcodeProjectNode" />
+              <item name="SenderFramework" type="fcab9f18:XcodeViewNode" />
+              <item name="Views" type="fcab9f18:XcodeViewNode" />
+              <item name="Chats List" type="fcab9f18:XcodeViewNode" />
+              <item name="Contract" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SENDER" type="1d218c8b:XcodeProjectNode" />
+              <item name="SenderFramework" type="fcab9f18:XcodeViewNode" />
+              <item name="Views" type="fcab9f18:XcodeViewNode" />
+              <item name="Chats List" type="fcab9f18:XcodeViewNode" />
+              <item name="Module" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SENDER" type="1d218c8b:XcodeProjectNode" />
+              <item name="SenderFramework" type="fcab9f18:XcodeViewNode" />
+              <item name="Views" type="fcab9f18:XcodeViewNode" />
+              <item name="Chats List" type="fcab9f18:XcodeViewNode" />
+              <item name="Interactor" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SENDER" type="1d218c8b:XcodeProjectNode" />
+              <item name="SenderFramework" type="fcab9f18:XcodeViewNode" />
+              <item name="Views" type="fcab9f18:XcodeViewNode" />
+              <item name="Chats List" type="fcab9f18:XcodeViewNode" />
+              <item name="Data Manager" type="fcab9f18:XcodeViewNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/romikser/Work/sender_iphone/SENDER/SenderFramework/Views/Chat/Chat Settings/Interactor/GroupChatSettingsInteractor.swift&#10;senderauthpre&#9;null&#9;null&#10;senderser&#9;null&#9;null&#10;welcom&#9;FILE&#9;file:///Users/romikser/Work/sender_iphone/SENDER/SENDER/Classes/Views/WelcomeViewController.m&#10;sendercore&#9;FILE&#9;file:///Users/romikser/Work/sender_iphone/SENDER/SenderFramework/SenderCore.m" />
+    <property name="com.jetbrains.cidr.execution.build.XcodeMessageFilterConfiguration.NOTE" value="false" />
+    <property name="com.jetbrains.cidr.execution.build.XcodeMessageFilterConfiguration.INFO" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="SenderFramework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SenderFramework/Views/FML" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="com.jetbrains.cidr.execution.build.XcodeMessageFilterConfiguration.GENERIC" value="false" />
+    <property name="com.jetbrains.cidr.execution.build.XcodeMessageFilterConfiguration.WARNING" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SENDER">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" MAKE_ACTIVE="TRUE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="OCGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.SENDER" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SenderFramework" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SenderFrameworkResources" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SENDER Enterprise" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SenderFramework-Universal" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c453caa-db2d-4aed-93ab-ddcbce614c74" name="Default" comment="" />
+      <created>1491820789201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1491820789201</updated>
+      <workItem from="1491820793176" duration="289000" />
+      <workItem from="1491821165547" duration="1047000" />
+      <workItem from="1491822653054" duration="9056000" />
+      <workItem from="1491832904394" duration="350000" />
+      <workItem from="1491834139567" duration="12921000" />
+      <workItem from="1491902759126" duration="3725000" />
+      <workItem from="1491907809976" duration="16341000" />
+      <workItem from="1491981002161" duration="3004000" />
+      <workItem from="1491984527447" duration="18430000" />
+      <workItem from="1492007208837" duration="9931000" />
+      <workItem from="1492069633455" duration="272000" />
+      <workItem from="1492069983192" duration="21000" />
+      <workItem from="1492070031857" duration="465000" />
+      <workItem from="1492070522025" duration="545000" />
+      <workItem from="1492071098024" duration="18473000" />
+      <workItem from="1492094526136" duration="9171000" />
+      <workItem from="1492165545745" duration="15741000" />
+      <workItem from="1492497499986" duration="1389000" />
+      <workItem from="1492499171618" duration="22228000" />
+      <workItem from="1492585567349" duration="26198000" />
+      <workItem from="1492616724996" duration="36000" />
+      <workItem from="1492616782203" duration="3587000" />
+      <workItem from="1492674683180" duration="11519000" />
+      <workItem from="1492688842424" duration="558000" />
+      <workItem from="1492689554866" duration="24441000" />
+      <workItem from="1492773158438" duration="5117000" />
+      <workItem from="1492779940317" duration="7362000" />
+      <workItem from="1492947869426" duration="63000" />
+      <workItem from="1492949337580" duration="46000" />
+      <workItem from="1493019058410" duration="107000" />
+      <workItem from="1493019384002" duration="19505000" />
+      <workItem from="1493104573687" duration="472000" />
+      <workItem from="1493105072851" duration="105000" />
+      <workItem from="1493105198043" duration="101000" />
+      <workItem from="1493105319356" duration="26585000" />
+      <workItem from="1493189152296" duration="25231000" />
+      <workItem from="1493271993234" duration="12986000" />
+      <workItem from="1493291924406" duration="9968000" />
+      <workItem from="1493302870739" duration="2446000" />
+      <workItem from="1493306063680" duration="9257000" />
+      <workItem from="1493369917444" duration="44000" />
+      <workItem from="1493369983602" duration="24330000" />
+      <workItem from="1493796691520" duration="21223000" />
+      <workItem from="1493822041235" duration="33160000" />
+      <workItem from="1493921139007" duration="11000" />
+      <workItem from="1493967742235" duration="27358000" />
+      <workItem from="1494400021700" duration="27748000" />
+      <workItem from="1494484855020" duration="28100000" />
+      <workItem from="1494569678328" duration="52914000" />
+      <workItem from="1494834860584" duration="24825000" />
+      <workItem from="1494916581880" duration="43987000" />
+      <workItem from="1495020282688" duration="3075000" />
+      <workItem from="1495023517199" duration="15386000" />
+      <workItem from="1495093743515" duration="7740000" />
+      <workItem from="1495102854330" duration="7580000" />
+      <workItem from="1495111404804" duration="4209000" />
+      <workItem from="1495115663555" duration="21194000" />
+      <workItem from="1495191924416" duration="16774000" />
+      <workItem from="1495210068580" duration="36106000" />
+      <workItem from="1495450556874" duration="69907000" />
+      <workItem from="1495638913317" duration="4442000" />
+      <workItem from="1495694781724" duration="30043000" />
+      <workItem from="1495776295720" duration="14436000" />
+      <workItem from="1495794817822" duration="19447000" />
+      <workItem from="1496041203908" duration="26703000" />
+      <workItem from="1496311296768" duration="1815000" />
+      <workItem from="1496313315844" duration="13631000" />
+      <workItem from="1496381057888" duration="382000" />
+      <workItem from="1496381462934" duration="25430000" />
+      <workItem from="1496416384489" duration="2121000" />
+      <workItem from="1496669783457" duration="348000" />
+      <workItem from="1496710862114" duration="31561000" />
+      <workItem from="1496818989014" duration="12335000" />
+      <workItem from="1496832461095" duration="16509000" />
+      <workItem from="1496905794360" duration="12107000" />
+      <workItem from="1496925050952" duration="14487000" />
+      <workItem from="1496940954814" duration="22498000" />
+      <workItem from="1497170559728" duration="7934000" />
+      <workItem from="1497260213085" duration="6069000" />
+      <workItem from="1497266537499" duration="4589000" />
+      <workItem from="1497271985435" duration="1945000" />
+      <workItem from="1497274532131" duration="4812000" />
+      <workItem from="1497279958698" duration="12046000" />
+      <workItem from="1497350924087" duration="31095000" />
+      <workItem from="1497442757986" duration="5658000" />
+      <workItem from="1497449174530" duration="110749000" />
+      <workItem from="1498058898837" duration="8078000" />
+      <workItem from="1498121143558" duration="85659000" />
+      <workItem from="1498551957772" duration="32402000" />
+      <workItem from="1498739467582" duration="26820000" />
+      <workItem from="1498827577443" duration="3384000" />
+      <workItem from="1499014242037" duration="43526000" />
+      <workItem from="1499247082246" duration="12371000" />
+      <workItem from="1499261484539" duration="83154000" />
+      <workItem from="1499688258313" duration="47226000" />
+      <workItem from="1499847185614" duration="14242000" />
+      <workItem from="1499864505506" duration="76795000" />
+      <workItem from="1500274953589" duration="23186000" />
+      <workItem from="1500305399953" duration="3447000" />
+      <workItem from="1500360217845" duration="82243000" />
+      <workItem from="1500558714548" duration="14027000" />
+      <workItem from="1500628764284" duration="104755000" />
+      <workItem from="1501137457466" duration="58000" />
+      <workItem from="1501137533804" duration="13311000" />
+      <workItem from="1501153110243" duration="51381000" />
+      <workItem from="1501501971806" duration="10407000" />
+      <workItem from="1501516470144" duration="53450000" />
+      <workItem from="1501678218417" duration="31417000" />
+      <workItem from="1501770190796" duration="31449000" />
+      <workItem from="1501980687561" duration="95000" />
+      <workItem from="1502009678827" duration="12990000" />
+      <workItem from="1502092037838" duration="21000" />
+      <workItem from="1502092075874" duration="53000" />
+      <workItem from="1502092170324" duration="119937000" />
+      <workItem from="1502445404158" duration="6426000" />
+      <workItem from="1502452344579" duration="11236000" />
+      <workItem from="1502466805972" duration="58835000" />
+      <workItem from="1502813349776" duration="11822000" />
+      <workItem from="1502878234282" duration="1605000" />
+      <workItem from="1502879861823" duration="17525000" />
+      <workItem from="1502952319137" duration="20000" />
+      <workItem from="1502952372777" duration="16187000" />
+      <workItem from="1502972886377" duration="134265000" />
+      <workItem from="1503486728002" duration="11755000" />
+      <workItem from="1503904182572" duration="28189000" />
+      <workItem from="1503936919952" duration="80919000" />
+      <workItem from="1504248615447" duration="7945000" />
+      <workItem from="1504260161433" duration="223000" />
+      <workItem from="1504270402566" duration="3460000" />
+      <workItem from="1504274548091" duration="16128000" />
+      <workItem from="1504522368331" duration="18046000" />
+      <workItem from="1504551021749" duration="50686000" />
+      <workItem from="1504708077673" duration="5637000" />
+      <workItem from="1504764144605" duration="28629000" />
+      <workItem from="1504798388217" duration="22876000" />
+      <workItem from="1505568324630" duration="412000" />
+      <workItem from="1505739178488" duration="7000" />
+      <workItem from="1506320235141" duration="12000" />
+      <workItem from="1506320270971" duration="466000" />
+      <workItem from="1506320754885" duration="122000" />
+      <workItem from="1506320947948" duration="123816000" />
+      <workItem from="1506923514100" duration="11514000" />
+      <workItem from="1507029556497" duration="1946000" />
+      <workItem from="1507032420339" duration="162000" />
+      <workItem from="1507032592383" duration="74876000" />
+      <workItem from="1507280717154" duration="192274000" />
+      <workItem from="1508247051156" duration="13000" />
+      <workItem from="1508247102410" duration="162000" />
+      <workItem from="1508247431392" duration="6969000" />
+      <workItem from="1508263319188" duration="63000" />
+      <workItem from="1508306711002" duration="25626000" />
+      <workItem from="1508339490515" duration="1723000" />
+      <workItem from="1508397094635" duration="26207000" />
+      <workItem from="1508496693498" duration="17813000" />
+      <workItem from="1508742048646" duration="117000" />
+      <workItem from="1508742257034" duration="93706000" />
+      <workItem from="1509016916001" duration="17553000" />
+      <workItem from="1509085777011" duration="22000" />
+      <workItem from="1509085820643" duration="26706000" />
+      <workItem from="1509355035082" duration="8252000" />
+      <workItem from="1509366024038" duration="4000" />
+      <workItem from="1510135735626" duration="1000" />
+    </task>
+    <task id="LOCAL-00001" summary="- deleted unused files">
+      <created>1492165756259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1492165756259</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3376794000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-361" y="-1920" width="1080" height="1920" extended-state="0" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18696883" sideWeight="0.7782101" order="0" side_tool="false" content_ui="combo" x="2370" y="-669" width="180" height="1381" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839912" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08223684" sideWeight="0.58640224" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20997807" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44627193" sideWeight="0.5967894" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1529745" sideWeight="0.49162862" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09375" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33717105" sideWeight="0.7872565" order="3" side_tool="false" content_ui="tabs" x="4" y="31" width="1916" height="1161" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2474032" sideWeight="0.22178988" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08223684" sideWeight="0.41359773" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47591522" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43914473" sideWeight="0.49605057" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3448465" sideWeight="0.7677054" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839912" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.017210145" sideWeight="0.4164306" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30163044" sideWeight="0.21274355" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44627193" sideWeight="0.5967894" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20997807" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09375" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11614731" sideWeight="0.7782101" order="0" side_tool="false" content_ui="combo" x="2370" y="-669" width="180" height="1381" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47591522" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43914473" sideWeight="0.49605057" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32155797" sideWeight="0.7677054" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28895184" sideWeight="0.49162862" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2474032" sideWeight="0.22178988" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32971016" sideWeight="0.7872565" order="3" side_tool="false" content_ui="tabs" x="4" y="31" width="1916" height="1161" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- deleted unused files" />
+    <option name="LAST_COMMIT_MESSAGE" value="- deleted unused files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="OCSymbolicBreakpointType">
+          <properties>
+            <option name="symbolPattern" value="malloc_error_break" />
+          </properties>
+          <option name="timeStamp" value="4808" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/SenderFramework/Server/Server Facade/ServerFacade.m</url>
+          <line>1159</line>
+          <option name="timeStamp" value="8073" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/SenderFramework/Views/Entity Picker/View/ChatPickerViewController.m</url>
+          <line>126</line>
+          <option name="timeStamp" value="8115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/SenderFramework/Views/FML/FML Classes/PBConsoleManager.m</url>
+          <line>29</line>
+          <option name="timeStamp" value="8141" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="CidrExceptionBreakpoint">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="8142" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat Settings/Interactor/ChatSettingsInteractor.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="121" column="4" lean-forward="false" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Settings/Presenter/SettingsPresenter.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Settings/Interactor/SettingsInteractor.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Settings/Data Manager/SettingsDataManager.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Settings/Eraser/SettingsEraser.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/SenderCore.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="538" column="24" lean-forward="false" selection-start-line="538" selection-start-column="24" selection-end-line="538" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Settings/View/SettingsViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Authorization/Interactor/SenderFullAuthorizationInteractor.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="156" column="32" lean-forward="false" selection-start-line="156" selection-start-column="20" selection-end-line="156" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Authorization/Presenter/SenderSSOAuthorizationPresenter.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Authorization/Presenter/SenderFullAuthorizationPresenter.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSLocale.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="100" column="55" lean-forward="false" selection-start-line="100" selection-start-column="55" selection-end-line="100" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Server/Server Facade/ServerFacade.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="89" column="76" lean-forward="false" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/SenderCore.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="88" column="19" lean-forward="false" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Active Chats Coordinator/ActiveChatsCoordinator.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Core Data/CDFacade/CoreDataFacade.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="592" column="10" lean-forward="false" selection-start-line="592" selection-start-column="10" selection-end-line="592" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Server/MW Swift Server/MWRequestBuilder.swift" />
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Server/Request Builder/SenderRequestBuilder.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Server/Comet/CometController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Server/Comet/CometController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="758" column="23" lean-forward="false" selection-start-line="758" selection-start-column="23" selection-end-line="758" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Authorization/Facade/MWSenderAuthorizationFacade.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="262" column="1" lean-forward="true" selection-start-line="262" selection-start-column="1" selection-end-line="262" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SENDER/SenderAppDelegate.h" />
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Main Screen/View/MainScreenView.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Router/ChatRouter.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Camera/CameraManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="189" column="70" lean-forward="false" selection-start-line="189" selection-start-column="70" selection-end-line="189" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Send Bar/Send Bar/View/SBCoordinator/SBCoordinator.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Sender UI/SenderUI.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Message View/TextMessageView.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="30" column="82" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Color Palette/SenderStylePalette.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Authorization/Views/Registration Super Controller/RegistrationViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SENDER/SenderAppDelegate.m" />
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat Picker/ChatPickerViewControllerTableDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Super Chat List View Controller/SuperChatListViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="106" column="47" lean-forward="false" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Entity Picker/View/ChatPickerViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="85" column="52" lean-forward="true" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Entity Picker/View/ChatPickerViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Super Chat List View Controller/SuperChatListViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/View/ChatViewController.m" />
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Presenter/ChatPresenter.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Models/ChatMessagesViewModel.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Server/Comet/CometTransport.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Module Builder/ChatModule.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Interactor/MessagesReadSender.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Interactor/ChatInteractor.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="242" column="32" lean-forward="false" selection-start-line="242" selection-start-column="17" selection-end-line="242" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Server/MW Swift Server/MWMessageCreator.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Server/MW Swift Server/MWCometParser.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3614">
+          <caret line="278" column="0" lean-forward="false" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Message Cell/MessageContainerCell.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/View/ChatViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17745">
+          <caret line="1366" column="61" lean-forward="true" selection-start-line="1366" selection-start-column="61" selection-end-line="1366" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Models/MessageViewModel.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Message View Builder/MessageViewBuilder.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/Chat/Chat View Controller/Message Cell Builder/MessageCellBuilder.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2171">
+          <caret line="169" column="29" lean-forward="false" selection-start-line="169" selection-start-column="29" selection-end-line="169" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderFramework/Views/FML/FML Classes/PBConsoleManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

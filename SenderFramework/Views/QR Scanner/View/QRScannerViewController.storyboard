@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Scanner View Controller-->
+        <scene sceneID="NIq-t8-SVb">
+            <objects>
+                <viewController storyboardIdentifier="SenderFramework.QRScannerViewController" id="B0X-GO-NpF" customClass="QRScannerViewController" customModule="SenderFramework" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xws-dm-cIN"/>
+                        <viewControllerLayoutGuide type="bottom" id="vwa-Y1-NsG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="19K-WR-bzy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ozq-pG-AEW" customClass="QRScanView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UcQ-Ny-idX">
+                                <rect key="frame" x="33" y="284" width="309" height="99"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c81-bG-hdq">
+                                        <rect key="frame" x="104" y="69" width="101" height="30"/>
+                                        <state key="normal" title="Go To Settings">
+                                            <color key="titleColor" red="0.49803921579999999" green="0.50196081400000003" blue="0.69019609689999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera is not available allow &quot;SENDER&quot; to acces microphone in device settings" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7e-Z0-M1g" userLabel="Microphone is not available allow &quot;SENDER&quot; to acces microphone in device settings">
+                                        <rect key="frame" x="0.0" y="0.0" width="309" height="61"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="B7e-Z0-M1g" firstAttribute="centerX" secondItem="UcQ-Ny-idX" secondAttribute="centerX" id="2sH-K0-4TC"/>
+                                    <constraint firstItem="B7e-Z0-M1g" firstAttribute="leading" relation="lessThanOrEqual" secondItem="UcQ-Ny-idX" secondAttribute="leading" id="8NX-dq-sri"/>
+                                    <constraint firstItem="B7e-Z0-M1g" firstAttribute="top" secondItem="UcQ-Ny-idX" secondAttribute="top" id="Y9b-ff-r2f"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="B7e-Z0-M1g" secondAttribute="trailing" id="e9B-LB-htn"/>
+                                    <constraint firstItem="c81-bG-hdq" firstAttribute="top" secondItem="B7e-Z0-M1g" secondAttribute="bottom" constant="8" id="jLc-PD-OHX"/>
+                                    <constraint firstAttribute="bottom" secondItem="c81-bG-hdq" secondAttribute="bottom" id="uv8-1e-qiv"/>
+                                    <constraint firstItem="c81-bG-hdq" firstAttribute="centerX" secondItem="UcQ-Ny-idX" secondAttribute="centerX" id="vlK-lj-tgV"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bdB-ti-Teb">
+                                <rect key="frame" x="8" y="154.5" width="359" height="358.5"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bdB-ti-Teb" secondAttribute="height" id="53w-4B-0A1"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UcQ-Ny-idX" firstAttribute="centerY" secondItem="ozq-pG-AEW" secondAttribute="centerY" id="4L3-6z-b1r"/>
+                            <constraint firstItem="UcQ-Ny-idX" firstAttribute="centerX" secondItem="ozq-pG-AEW" secondAttribute="centerX" id="4ld-4k-8CN"/>
+                            <constraint firstItem="bdB-ti-Teb" firstAttribute="leading" secondItem="19K-WR-bzy" secondAttribute="leading" constant="8" id="6Ca-gQ-ngg"/>
+                            <constraint firstItem="UcQ-Ny-idX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="19K-WR-bzy" secondAttribute="leading" constant="16" id="6Ng-cI-170"/>
+                            <constraint firstItem="bdB-ti-Teb" firstAttribute="centerY" secondItem="19K-WR-bzy" secondAttribute="centerY" id="6RQ-PS-Q9j"/>
+                            <constraint firstAttribute="trailing" secondItem="ozq-pG-AEW" secondAttribute="trailing" id="bFC-Rv-OPl"/>
+                            <constraint firstAttribute="trailing" secondItem="bdB-ti-Teb" secondAttribute="trailing" constant="8" id="bMu-rN-jjc"/>
+                            <constraint firstItem="ozq-pG-AEW" firstAttribute="top" secondItem="19K-WR-bzy" secondAttribute="top" id="dtR-JS-ysl"/>
+                            <constraint firstItem="bdB-ti-Teb" firstAttribute="centerX" secondItem="19K-WR-bzy" secondAttribute="centerX" id="nvi-b2-kLS"/>
+                            <constraint firstItem="vwa-Y1-NsG" firstAttribute="top" secondItem="ozq-pG-AEW" secondAttribute="bottom" id="pDl-gj-lnH"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UcQ-Ny-idX" secondAttribute="trailing" constant="16" id="uoQ-58-72n"/>
+                            <constraint firstItem="ozq-pG-AEW" firstAttribute="leading" secondItem="19K-WR-bzy" secondAttribute="leading" id="uwP-3i-9V6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cameraNotAvailableView" destination="UcQ-Ny-idX" id="CaV-U8-a23"/>
+                        <outlet property="scanBorderImage" destination="bdB-ti-Teb" id="vod-Qe-GYb"/>
+                        <outlet property="scanView" destination="ozq-pG-AEW" id="42e-Q3-P9Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fdS-s1-T88" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-913" y="-112"/>
+        </scene>
+    </scenes>
+</document>

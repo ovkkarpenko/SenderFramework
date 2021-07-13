@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Word Cell" id="BX6-qX-cQv" customClass="BitcoinMnemonicWordCell" customModule="SenderFramework">
+            <rect key="frame" x="0.0" y="0.0" width="102" height="37"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="102" height="37"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIW-Ga-Z3s">
+                        <rect key="frame" x="16" y="8" width="50" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQ8-cF-nsD">
+                        <rect key="frame" x="65" y="0.0" width="37" height="37"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="16" id="77n-mV-e1S"/>
+                            <constraint firstAttribute="width" priority="999" constant="37" id="8LC-cy-JrW"/>
+                            <constraint firstAttribute="height" constant="37" id="jFc-KO-sjd"/>
+                        </constraints>
+                        <connections>
+                            <action selector="detailButtonTap:" destination="BX6-qX-cQv" eventType="touchUpInside" id="cg9-Ag-OYp"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="PQ8-cF-nsD" firstAttribute="leading" secondItem="hIW-Ga-Z3s" secondAttribute="trailing" constant="-1" id="7gT-OH-IuR"/>
+                <constraint firstAttribute="trailing" secondItem="PQ8-cF-nsD" secondAttribute="trailing" id="D0b-fp-nfY"/>
+                <constraint firstAttribute="bottom" secondItem="hIW-Ga-Z3s" secondAttribute="bottom" constant="8" id="FgD-hE-56M"/>
+                <constraint firstItem="PQ8-cF-nsD" firstAttribute="centerY" secondItem="hIW-Ga-Z3s" secondAttribute="centerY" id="LfK-UB-LwR"/>
+                <constraint firstItem="hIW-Ga-Z3s" firstAttribute="leading" secondItem="BX6-qX-cQv" secondAttribute="leading" constant="16" id="WA0-pz-Zak"/>
+                <constraint firstItem="hIW-Ga-Z3s" firstAttribute="top" secondItem="BX6-qX-cQv" secondAttribute="top" constant="8" id="wHa-i0-Yfs"/>
+            </constraints>
+            <size key="customSize" width="102" height="37"/>
+            <connections>
+                <outlet property="detailButton" destination="PQ8-cF-nsD" id="o6G-MF-9hF"/>
+                <outlet property="detailButtonTrailing" destination="8LC-cy-JrW" id="VRz-im-gqn"/>
+                <outlet property="titleLabel" destination="hIW-Ga-Z3s" id="SnC-r6-0Cl"/>
+            </connections>
+            <point key="canvasLocation" x="283" y="279.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

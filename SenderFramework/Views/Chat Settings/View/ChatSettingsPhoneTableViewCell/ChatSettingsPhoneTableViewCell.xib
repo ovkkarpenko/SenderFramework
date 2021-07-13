@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13526" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="hFb-55-WAX" customClass="ChatSettingsPhoneTableViewCell" customModule="SenderFramework">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="68"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hFb-55-WAX" id="N6C-vr-mg4">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="68"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7x-Ag-0i0">
+                        <rect key="frame" x="16" y="14" width="46" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3-(369)573-5384" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ca-R2-SUn">
+                        <rect key="frame" x="16" y="36" width="140" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="T7x-Ag-0i0" firstAttribute="top" secondItem="N6C-vr-mg4" secondAttribute="topMargin" constant="3" id="6ry-KR-x84"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="T7x-Ag-0i0" secondAttribute="trailing" id="JgB-Ju-6DX"/>
+                    <constraint firstItem="1ca-R2-SUn" firstAttribute="top" secondItem="T7x-Ag-0i0" secondAttribute="bottom" constant="4" id="QEd-On-nRe"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="1ca-R2-SUn" secondAttribute="trailing" id="YI9-ir-EWZ"/>
+                    <constraint firstItem="T7x-Ag-0i0" firstAttribute="leading" secondItem="N6C-vr-mg4" secondAttribute="leadingMargin" id="rTm-8d-IDw"/>
+                    <constraint firstItem="1ca-R2-SUn" firstAttribute="bottom" secondItem="N6C-vr-mg4" secondAttribute="bottomMargin" id="vKb-P9-k0a"/>
+                    <constraint firstItem="1ca-R2-SUn" firstAttribute="leading" secondItem="N6C-vr-mg4" secondAttribute="leadingMargin" id="ymx-31-tDS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="phoneDescriptionLabel" destination="T7x-Ag-0i0" id="Vit-JZ-fBv"/>
+                <outlet property="phoneLabel" destination="1ca-R2-SUn" id="2rZ-Yk-WZu"/>
+            </connections>
+            <point key="canvasLocation" x="-246" y="-158"/>
+        </tableViewCell>
+    </objects>
+</document>

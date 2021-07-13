@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Screen View Controller-->
+        <scene sceneID="hcb-ji-bDU">
+            <objects>
+                <viewController storyboardIdentifier="SenderFramework.QRScreenViewController" id="7Qf-gZ-WTX" customClass="QRScreenViewController" customModule="SenderFramework" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bbU-3j-VnP"/>
+                        <viewControllerLayoutGuide type="bottom" id="vRp-nF-7Nw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oas-z8-69w">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8IN-il-Aal">
+                                <rect key="frame" x="150" y="558" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="59s-YB-hGT"/>
+                                    <constraint firstAttribute="height" constant="75" id="R18-qD-UOj"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="actionButtonPressed:" destination="7Qf-gZ-WTX" eventType="touchUpInside" id="VQB-tt-cKo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="999" verticalCompressionResistancePriority="999" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hc-2S-Ya7">
+                                <rect key="frame" x="171" y="641" width="33" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="1Fe-DU-j4k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vRp-nF-7Nw" firstAttribute="top" secondItem="1hc-2S-Ya7" secondAttribute="bottom" constant="8" id="DJj-DJ-lP2"/>
+                            <constraint firstItem="1hc-2S-Ya7" firstAttribute="centerX" secondItem="oas-z8-69w" secondAttribute="centerX" id="KUh-Iz-9CW"/>
+                            <constraint firstItem="1hc-2S-Ya7" firstAttribute="top" secondItem="8IN-il-Aal" secondAttribute="bottom" constant="8" id="NXc-Kl-YK0"/>
+                            <constraint firstItem="8IN-il-Aal" firstAttribute="centerX" secondItem="1hc-2S-Ya7" secondAttribute="centerX" id="jkT-ju-YT6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="actionButton" destination="8IN-il-Aal" id="OcT-Tj-0qG"/>
+                        <outlet property="actionTitleLabel" destination="1hc-2S-Ya7" id="u6C-Fx-YHV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TRN-mP-Efk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-292" y="192.95352323838082"/>
+        </scene>
+    </scenes>
+</document>

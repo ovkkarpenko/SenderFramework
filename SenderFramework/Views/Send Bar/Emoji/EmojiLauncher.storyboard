@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Emoji Launcher View Controller-->
+        <scene sceneID="Dvf-jr-IEw">
+            <objects>
+                <viewController storyboardIdentifier="SenderFramework.EmojiLauncherViewController" id="sso-AN-flp" customClass="EmojiLauncherViewController" customModule="SenderFramework" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Itm-aG-4Sg"/>
+                        <viewControllerLayoutGuide type="bottom" id="hNg-FQ-gjr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gyT-vI-TR5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="214"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="XJC-Eo-Tud">
+                                <rect key="frame" x="0.0" y="0.0" width="276" height="214"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Azr-qG-aIb">
+                                    <size key="itemSize" width="38" height="38"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="8" minY="0.0" maxX="8" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="emojiCell" id="dMe-BM-ACc" customClass="EmojiLauncherCell" customModule="SenderFramework">
+                                        <rect key="frame" x="8" y="0.0" width="38" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="38" height="38"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😂" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="2iu-Ij-fnH">
+                                                    <rect key="frame" x="0.0" y="0.0" width="38" height="38"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="2iu-Ij-fnH" firstAttribute="top" secondItem="dMe-BM-ACc" secondAttribute="top" id="1be-7i-tuI"/>
+                                            <constraint firstAttribute="bottom" secondItem="2iu-Ij-fnH" secondAttribute="bottom" id="FMg-Lu-AJb"/>
+                                            <constraint firstAttribute="trailing" secondItem="2iu-Ij-fnH" secondAttribute="trailing" id="gHK-WF-nfy"/>
+                                            <constraint firstItem="2iu-Ij-fnH" firstAttribute="leading" secondItem="dMe-BM-ACc" secondAttribute="leading" id="sFe-Un-Mld"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="2iu-Ij-fnH" id="xbP-yo-puE"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="sso-AN-flp" id="bxX-aO-AS2"/>
+                                    <outlet property="delegate" destination="sso-AN-flp" id="elF-zL-vAl"/>
+                                </connections>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baF-sJ-UwO">
+                                <rect key="frame" x="276" y="0.0" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="lgW-EA-DdZ"/>
+                                    <constraint firstAttribute="width" constant="44" id="vbD-3Y-QUi"/>
+                                </constraints>
+                                <state key="normal" image="_arrow_back"/>
+                                <connections>
+                                    <action selector="backspace:" destination="sso-AN-flp" eventType="touchUpInside" id="4s3-b9-Mu0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XJC-Eo-Tud" firstAttribute="top" secondItem="Itm-aG-4Sg" secondAttribute="bottom" id="Cn9-i8-uxB"/>
+                            <constraint firstItem="hNg-FQ-gjr" firstAttribute="top" secondItem="XJC-Eo-Tud" secondAttribute="bottom" id="DXh-x3-Vuq"/>
+                            <constraint firstItem="baF-sJ-UwO" firstAttribute="top" secondItem="Itm-aG-4Sg" secondAttribute="bottom" id="apm-9q-sbB"/>
+                            <constraint firstItem="XJC-Eo-Tud" firstAttribute="leading" secondItem="gyT-vI-TR5" secondAttribute="leading" id="exI-jb-rqN"/>
+                            <constraint firstItem="baF-sJ-UwO" firstAttribute="leading" secondItem="XJC-Eo-Tud" secondAttribute="trailing" id="k4Y-qH-G7j"/>
+                            <constraint firstAttribute="trailing" secondItem="baF-sJ-UwO" secondAttribute="trailing" id="v1J-0P-BWk"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="214"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MPy-tA-xWl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="154" y="370"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="_arrow_back" width="30" height="30"/>
+    </resources>
+</document>

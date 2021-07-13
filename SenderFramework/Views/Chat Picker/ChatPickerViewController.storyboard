@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Chat Picker View Controller-->
+        <scene sceneID="i5Y-wl-dO7">
+            <objects>
+                <viewController storyboardIdentifier="ChatPickerViewController" extendedLayoutIncludesOpaqueBars="YES" id="caT-rZ-fAQ" customClass="ChatPickerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cje-uY-gbe"/>
+                        <viewControllerLayoutGuide type="bottom" id="sHZ-F0-mkW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cJh-Gz-dTO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pKu-xp-Azo">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pKu-xp-Azo" firstAttribute="leading" secondItem="cJh-Gz-dTO" secondAttribute="leading" id="4zJ-wt-EAp"/>
+                            <constraint firstItem="pKu-xp-Azo" firstAttribute="top" secondItem="cJh-Gz-dTO" secondAttribute="top" id="LAk-ep-eOu"/>
+                            <constraint firstAttribute="trailing" secondItem="pKu-xp-Azo" secondAttribute="trailing" id="d1H-Fw-JTK"/>
+                            <constraint firstItem="sHZ-F0-mkW" firstAttribute="top" secondItem="pKu-xp-Azo" secondAttribute="bottom" id="kZY-Y7-0KZ"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="tableView" destination="pKu-xp-Azo" id="vS9-xs-vIJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Ua-nJ-bEw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-150" y="-79"/>
+        </scene>
+        <!--Chat Picker One Company View Controller-->
+        <scene sceneID="XA4-iO-D7R">
+            <objects>
+                <viewController storyboardIdentifier="ChatPickerOneCompanyViewController" extendedLayoutIncludesOpaqueBars="YES" id="eGJ-wq-h8A" customClass="ChatPickerOneCompanyViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vZN-Sz-bap"/>
+                        <viewControllerLayoutGuide type="bottom" id="dsW-Uh-Z8M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="opO-zR-XOh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pgc-mh-7Dr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="pgc-mh-7Dr" secondAttribute="trailing" id="8wk-cc-Pal"/>
+                            <constraint firstItem="pgc-mh-7Dr" firstAttribute="leading" secondItem="opO-zR-XOh" secondAttribute="leading" id="ebQ-qM-fez"/>
+                            <constraint firstItem="dsW-Uh-Z8M" firstAttribute="top" secondItem="pgc-mh-7Dr" secondAttribute="bottom" id="iLN-PO-dCF"/>
+                            <constraint firstItem="pgc-mh-7Dr" firstAttribute="top" secondItem="opO-zR-XOh" secondAttribute="top" id="rj0-nF-4uM"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="tableView" destination="pgc-mh-7Dr" id="y24-ef-Kns"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ahW-o6-Z8Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="692" y="-80"/>
+        </scene>
+        <!--Blocked Users View-->
+        <scene sceneID="pq9-IY-Rsa">
+            <objects>
+                <viewController storyboardIdentifier="SenderFramework.BlockedUsersView" extendedLayoutIncludesOpaqueBars="YES" id="zdV-45-9KC" customClass="BlockedUsersView" customModule="SenderFramework" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GSx-pD-vYY"/>
+                        <viewControllerLayoutGuide type="bottom" id="NVp-OI-lTY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UKh-X6-ZfY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qgJ-J9-hYN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qgJ-J9-hYN" firstAttribute="leading" secondItem="UKh-X6-ZfY" secondAttribute="leading" id="Zlu-wN-qkM"/>
+                            <constraint firstItem="NVp-OI-lTY" firstAttribute="top" secondItem="qgJ-J9-hYN" secondAttribute="bottom" id="aOe-nB-k6i"/>
+                            <constraint firstAttribute="trailing" secondItem="qgJ-J9-hYN" secondAttribute="trailing" id="eSF-rU-4we"/>
+                            <constraint firstItem="qgJ-J9-hYN" firstAttribute="top" secondItem="UKh-X6-ZfY" secondAttribute="top" id="r7n-yk-uWV"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="tableView" destination="qgJ-J9-hYN" id="2Cb-fh-DvD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3dz-RN-xJ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1369" y="-80"/>
+        </scene>
+    </scenes>
+</document>

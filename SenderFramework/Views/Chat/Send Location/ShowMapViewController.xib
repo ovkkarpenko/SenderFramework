@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13526"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShowMapViewController">
+            <connections>
+                <outlet property="cancelButton" destination="O7p-6u-m3u" id="ieF-8R-Ta6"/>
+                <outlet property="mapView" destination="Qjg-7M-smS" id="GZV-yf-f8h"/>
+                <outlet property="setDefaultLocationButton" destination="y5q-9G-W4n" id="uVg-u7-Hq2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qjg-7M-smS" customClass="MWUniversalMapView">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5q-9G-W4n">
+                    <rect key="frame" x="311" y="603" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="2X6-qM-27c"/>
+                        <constraint firstAttribute="width" constant="44" id="qy8-9Z-xaM"/>
+                    </constraints>
+                    <state key="normal" image="_geo_tag">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="setDefaultLocationAction:" destination="-1" eventType="touchUpInside" id="sCB-4v-wdZ"/>
+                    </connections>
+                </button>
+                <view alpha="0.59999999999999964" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wj3-6h-DiF">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O7p-6u-m3u">
+                            <rect key="frame" x="330" y="37" width="25" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="25" id="Dgw-Vg-IWn"/>
+                                <constraint firstAttribute="height" constant="25" id="W8t-6e-mpa"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="cancel_white">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelAction:" destination="-1" eventType="touchUpInside" id="hf8-Rc-lPO"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="O7p-6u-m3u" firstAttribute="top" secondItem="wj3-6h-DiF" secondAttribute="top" constant="37" id="B31-7W-kfS"/>
+                        <constraint firstAttribute="trailing" secondItem="O7p-6u-m3u" secondAttribute="trailing" constant="20" id="OU7-RV-ygV"/>
+                        <constraint firstAttribute="height" constant="70" id="vl7-N2-16t"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Qjg-7M-smS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="4ot-PV-u5f"/>
+                <constraint firstItem="Qjg-7M-smS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5Wf-LI-F5e"/>
+                <constraint firstItem="wj3-6h-DiF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HfX-1a-xQ1"/>
+                <constraint firstAttribute="trailing" secondItem="Qjg-7M-smS" secondAttribute="trailing" id="POk-Fc-xoU"/>
+                <constraint firstAttribute="trailing" secondItem="y5q-9G-W4n" secondAttribute="trailing" constant="20" id="SSG-fO-5pC"/>
+                <constraint firstAttribute="bottom" secondItem="y5q-9G-W4n" secondAttribute="bottom" constant="20" id="Sgu-Xs-4qb"/>
+                <constraint firstAttribute="bottom" secondItem="Qjg-7M-smS" secondAttribute="bottom" id="kCw-zA-vMw"/>
+                <constraint firstAttribute="trailing" secondItem="wj3-6h-DiF" secondAttribute="trailing" id="ujt-tY-vAi"/>
+                <constraint firstItem="wj3-6h-DiF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="wT9-01-Qh1"/>
+            </constraints>
+            <point key="canvasLocation" x="524.5" y="378.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="_geo_tag" width="30" height="30"/>
+        <image name="cancel_white" width="22" height="22"/>
+    </resources>
+</document>

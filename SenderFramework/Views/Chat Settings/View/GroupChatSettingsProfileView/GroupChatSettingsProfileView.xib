@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13526"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="qdD-e7-KPg" customClass="GroupChatSettingsProfileView" customModule="SenderFramework">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="156"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add_photo" translatesAutoresizingMaskIntoConstraints="NO" id="v6s-hS-Sg8">
+                    <rect key="frame" x="124.5" y="8" width="86" height="86"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="86" id="hXg-Cf-Wtm"/>
+                        <constraint firstAttribute="width" constant="86" id="kkT-NU-bQE"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="User Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iKo-WD-PSA">
+                    <rect key="frame" x="16" y="96" width="303" height="34"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZ0-na-hWg">
+                    <rect key="frame" x="15.5" y="122" width="303" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="sYq-wk-slc"/>
+                    </constraints>
+                </view>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Description" placeholder="User Description" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yvl-tO-uOU">
+                    <rect key="frame" x="32" y="132" width="271" height="16"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xiJ-6P-sNW">
+                    <rect key="frame" x="31.5" y="143" width="271.5" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Pb9-EF-kI6"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KmB-iM-7Ec" userLabel="Add Image Button">
+                    <rect key="frame" x="124.5" y="8" width="86" height="86"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" image="_camera"/>
+                    <connections>
+                        <action selector="addImageButtonPressed:" destination="qdD-e7-KPg" eventType="touchUpInside" id="4ra-Vh-Yuj"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.90588235289999997" green="0.93333333330000001" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xiJ-6P-sNW" firstAttribute="trailing" secondItem="yvl-tO-uOU" secondAttribute="trailing" id="1Uh-Va-ckT"/>
+                <constraint firstItem="xiJ-6P-sNW" firstAttribute="leading" secondItem="yvl-tO-uOU" secondAttribute="leading" id="1zy-RI-4bp"/>
+                <constraint firstItem="iKo-WD-PSA" firstAttribute="top" secondItem="v6s-hS-Sg8" secondAttribute="bottom" constant="2" id="6IR-nr-enD"/>
+                <constraint firstItem="xiJ-6P-sNW" firstAttribute="baseline" secondItem="yvl-tO-uOU" secondAttribute="baseline" id="6w1-WX-2VN"/>
+                <constraint firstAttribute="trailing" secondItem="iKo-WD-PSA" secondAttribute="trailing" constant="16" id="9L6-45-VgB"/>
+                <constraint firstItem="eZ0-na-hWg" firstAttribute="leading" secondItem="iKo-WD-PSA" secondAttribute="leading" id="CAJ-9q-8Lj"/>
+                <constraint firstItem="yvl-tO-uOU" firstAttribute="leading" secondItem="iKo-WD-PSA" secondAttribute="leading" constant="16" id="DNW-zd-S8R"/>
+                <constraint firstItem="v6s-hS-Sg8" firstAttribute="top" secondItem="KmB-iM-7Ec" secondAttribute="top" id="JUa-Sz-ZSf"/>
+                <constraint firstItem="yvl-tO-uOU" firstAttribute="top" secondItem="iKo-WD-PSA" secondAttribute="bottom" constant="2" id="Oae-7K-uka"/>
+                <constraint firstItem="yvl-tO-uOU" firstAttribute="trailing" secondItem="iKo-WD-PSA" secondAttribute="trailing" constant="-16" id="Ubt-Dk-zJw"/>
+                <constraint firstItem="eZ0-na-hWg" firstAttribute="baseline" secondItem="iKo-WD-PSA" secondAttribute="baseline" id="X4J-m0-INB"/>
+                <constraint firstItem="iKo-WD-PSA" firstAttribute="leading" secondItem="qdD-e7-KPg" secondAttribute="leading" constant="16" id="YKk-rC-HgV"/>
+                <constraint firstItem="aPC-wY-zbn" firstAttribute="bottom" secondItem="yvl-tO-uOU" secondAttribute="bottom" constant="8" id="YR8-En-DwT"/>
+                <constraint firstItem="v6s-hS-Sg8" firstAttribute="trailing" secondItem="KmB-iM-7Ec" secondAttribute="trailing" id="eHF-Ij-JNU"/>
+                <constraint firstItem="eZ0-na-hWg" firstAttribute="trailing" secondItem="iKo-WD-PSA" secondAttribute="trailing" id="jg2-pO-CXq"/>
+                <constraint firstItem="v6s-hS-Sg8" firstAttribute="top" secondItem="qdD-e7-KPg" secondAttribute="top" constant="8" id="ouG-K7-5Gw"/>
+                <constraint firstItem="v6s-hS-Sg8" firstAttribute="centerX" secondItem="qdD-e7-KPg" secondAttribute="centerX" id="qrk-ee-bNR"/>
+                <constraint firstItem="v6s-hS-Sg8" firstAttribute="bottom" secondItem="KmB-iM-7Ec" secondAttribute="bottom" id="u6P-tV-gzP"/>
+                <constraint firstItem="v6s-hS-Sg8" firstAttribute="leading" secondItem="KmB-iM-7Ec" secondAttribute="leading" id="uaK-Gl-jFL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="aPC-wY-zbn"/>
+            <connections>
+                <outlet property="addImageButton" destination="KmB-iM-7Ec" id="9cP-SD-9iT"/>
+                <outlet property="descriptionTextField" destination="yvl-tO-uOU" id="rOM-dV-RY9"/>
+                <outlet property="imageView" destination="v6s-hS-Sg8" id="hZ1-wy-uCv"/>
+                <outlet property="nameTextField" destination="iKo-WD-PSA" id="ojb-36-EES"/>
+                <outlet property="userDescriptionBottomLine" destination="xiJ-6P-sNW" id="jzE-9b-48k"/>
+                <outlet property="userNameBottomLine" destination="eZ0-na-hWg" id="nvL-xz-jF9"/>
+            </connections>
+            <point key="canvasLocation" x="44.5" y="-168"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="_camera" width="30" height="30"/>
+        <image name="add_photo" width="260" height="260"/>
+    </resources>
+</document>

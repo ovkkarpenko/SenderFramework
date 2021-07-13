@@ -1,0 +1,852 @@
+/*
+ SenderFramework.strings
+ SENDER
+
+ Created by Roman Serga on 16/1/15.
+ Copyright (c) 2015 Middleware Inc. All rights reserved.
+ */
+
+"about_me" = "About me";
+
+"accept_ios" = "Accept";
+
+"add" = "Add";
+
+"add_contact_hing" = "Add contact";
+
+"add_friend" = "Friend";
+
+"add_members_btn_hint" = "View & Add Participants";
+
+"add_participants_ph" = "Add participants...";
+
+"add_photo_ios" = "Add photo";
+
+"add_voice_message" = "Add audio message";
+
+"add_voice_message_ios" = "Audio message";
+
+"address" = "Address";
+
+"adult_content_ios" = "18+ content";
+
+"app_name" = "Sender";
+
+"attach_file" = "Attach file";
+
+"attach_file_hint" = "Send file";
+
+"audio_msg_ph" = "[audio]";
+
+"auth_undef_err" = "Unknown authorization status. Check your Internet connection";
+
+"blacklist_ios" = "Blacklist";
+
+"browser_tab_new_message_title" = "New message";
+
+"call" = "Call";
+
+"camera_not_found_err" = "Camera not found";
+
+"cancel" = "Cancel";
+
+"done" = "Done";
+
+"cancel_recording" = "Cancel recording & close";
+
+"category" = "Category";
+
+"change_language" = "Interface language";
+
+"change_photo" = "Change photo";
+
+"chat_id_err" = "Chat id error";
+
+"chat_is_empty" = "Chat is empty";
+
+"chat_members_title" = "Chat members";
+
+"chats_gcm" = "chats";
+
+"chatting" = "Chat";
+
+"check_connect_to_internet_msg" = "Check Internet connection";
+
+"clear" = "Clear";
+
+"clear_history_ios" = "Clear chat history";
+
+"clear_history_message_ios" = "This will permanently delete all your message history including media from this device";
+
+"clear_history_question_ios" = "Are you sure?";
+
+"disable_device_title" = "Are you sure to logout from Sender on this device?";
+
+"clear_media_ios" = "Clear media cache";
+
+"click_and_talk" = "Click & talk";
+
+"click_and_talk_ios" = "Tap & Talk";
+
+"error_mic_not_available" = "Microphone is not available.\nAllow app to use microphone in device settings.";
+
+"error_mic_not_available_go_to_settings" = "Go To Settings";
+
+"error_camera_not_available" = "Camera is not available.\nAllow app to use camera in device settings.";
+
+"error_camera_not_available_go_to_settings" = "Go To Settings";
+
+"error_location_not_available" = "Location is not available.\nAllow app to use location in device settings.";
+
+"error_location_not_available_go_to_settings" = "Go To Settings";
+
+"go_to_settings_question" = "Go to Settings?";
+
+"close" = "Close";
+
+"confirm_auth_detail_ios" = "Registration confirmation was sent to your authorized device %@";
+
+"confirm_auth_ios" = "Confirm Registration";
+
+"contact_list_empty" = "Contact list is empty";
+
+"contacts" = "Contacts";
+
+"contacts_tab_title" = "Contacts";
+
+"continue_recording" = "To continue recording, press play";
+
+"coords_msg_ph" = "[location]";
+
+"crop_picture" = "Crop picture";
+
+"cylinder_ios" = "Stickers";
+
+"delete_contact" = "Delete contact?";
+
+"delete_contact_message_ios" = "Are you sure you want to delete user from your contact list?";
+
+"delete_contact_specific_ios" = "Delete chat and contact %@?";
+"delete_contact_specific_message_ios" = "Are you sure you want to delete chat with user %@?";
+
+"delete_ios" = "Delete";
+
+"delete_photo_ios" = "Delete photo";
+
+"desktop_notifications_setting_btn" = "Desktop notifications";
+
+"development_ios" = "Development";
+
+"device_without_camera_ios" = "Camera error";
+
+"dialogs_tab_title" = "Dialogs";
+
+"disable_device_ios" = "Disable device";
+
+"edit" = "Edit";
+
+"email_ios" = "Email";
+
+"emoji_nature" = "Nature";
+
+"emoji_objects" = "Objects";
+
+"emoji_people" = "People";
+
+"emoji_places" = "Places";
+
+"emoji_stickers" = "Stickers";
+
+"emoji_symbols" = "Symbols";
+
+"emoji_used" = "Frequently used";
+
+"empty_dialog" = "Empty dialog";
+
+"enable_logs" = "Logs";
+
+"enter_message_ph" = "Your message";
+
+"enter_name_ios" = "Enter your name";
+
+"enter_otp_message_ios" = "Enter SMS code";
+
+"enter_otp_ios" = "Enter the code you received in SMS";
+
+"enter_name_message_ios" = "Enter your name";
+
+"wrong_name_format_title" = "Wrong Name Format";
+
+"wrong_name_format_message" = "Please, enter name which contains at least one character";
+
+"enter_your_name" = "Enter your name";
+
+"enter_your_status" = "Enter your status";
+
+"error_ios" = "Error";
+
+"exit_not_support" = "Leaving the chat is not yet supported by the server";
+
+"file_msg_ph" = "[file]";
+
+"file_not_supported_err" = "File not supported!";
+
+"find" = "Find";
+
+"form_msg_ph" = "[form]";
+
+"general_ios" = "General";
+
+"group_chat_def_desc" = "Group chat";
+
+"help" = "HELP";
+
+"i_am_here" = "I'm here";
+
+"image_download_btn" = "Download";
+
+"image_msg_ph" = "[photo]";
+
+"initial_app_err" = "Application failed to initialize";
+
+"invite" = "Invite";
+
+"invite_ios" = "Invite to Sender";
+
+"invite_text" = "Hi, I'm using Sender. It's a very convenient application for sending free messages, recharging mobile phone account and many other things. https://apps.sender.mobi";
+
+"language_ios" = "Language";
+
+"languange_change_ios" = "Change language";
+
+"last_updated_ios" = "Last Updated:";
+
+"leave_chat_btn" = "Leave chat";
+
+"leave_chat_ios" = "Leave chat";
+
+"leave_chat_msg" = "Leave chat?";
+
+"license_ios" = "License";
+
+"load_image_err" = "Image cannot be loaded";
+
+"load_video_err" = "Video cannot be loaded";
+
+"load_audio_err" = "Audio cannot be loaded";
+
+"load_location_err" = "Location cannot be shown";
+
+"load_file_err" = "File cannot be loaded";
+
+"loading_contacts" = "Loading contacts..";
+
+"loading_image_ios" = "Loading image \nPush for reload.";
+
+"loading_msg" = "Loading...";
+
+"loading_video_ios" = "Loading video";
+
+"location_ios" = "Location";
+
+"log_out" = "Log out";
+
+"logout_wait_msg" = "Logout...";
+
+"message_filter_ios" = "Message filter";
+
+"money" = "Money";
+
+"my_devices" = "My devices";
+
+"my_wallet" = "My wallet";
+
+"my_wallet_ios" = "Wallet";
+
+"need_to_restart_ios" = "To change application's language you have to restart the app";
+
+"never_ios" = "Never";
+
+"new_audio_msg_gcm" = "New Audio Message";
+
+"new_chat_name_ph" = "New chat";
+
+"new_contact_name_ph" = "Name...";
+
+"new_contact_phone_ph" = "Phone number (380XXXXXXX)";
+
+"new_image_msg_gcm" = "New Image Message";
+
+"new_messages" = "New messages";
+
+"new_messages_in_gcm" = "new messages in";
+
+"new_msg_gcm" = "New Message";
+
+"new_stream_registered_msg" = "Sender is already opened in another tab";
+
+"new_user" = "New User";
+
+"new_version_msg" = "Sender is just updated. Please, refresh page.";
+
+"new_version_msg_ios" = "Your version of Sender is outdated. \n Please visit \n sender.mobi \n to get the latest version.";
+
+"no" = "No";
+
+"not_received_otp_ios" = "I haven't received the SMS";
+
+"notification_setting" = "Notifications";
+
+"interlocutor_ios" = "Interlocutor";
+
+"ok_ios" = "OK";
+
+"p2p_chat_def_desc" = "Chat";
+
+"pause" = "Pause...";
+
+"pb_license_ios" = "PJSC СВ \"PrivatBank\" \n NBU License No.22 as of 05.10.2011";
+
+"personal_backgrounds_ios" = "Personal backgrounds";
+
+"phone_number" = "Phone number";
+
+"phone_number_unavailable_ios" = "Phone number is hidden";
+
+"phone_number_undefined_err" = "Error: unknown user number";
+
+"phone_title_ios" = "Welcome to Sender.\nEnter your phone number and press \"Continue\".";
+
+"photo_will_be_removed" = "This photo will be removed from all devices. Proceed?";
+
+"play" = "Play";
+
+"playing" = "Playing...";
+
+"processing" = "Processing...";
+
+"pull_to_refresh_chat_history_ios" = "Pull to Refresh Chat History";
+
+"pull_to_refresh_ios" = "Pull to Refresh Label Text";
+
+"pull_to_refresh_loading_chat_history_ios" = "Pull to Refresh Loading Chat History";
+
+"qr" = "QR";
+
+"qr_finished_scan_ios" = "QR was sent to server";
+
+"ready_ios" = "OK";
+
+"recharge_phone" = "Recharge phone";
+
+"recording" = "Recording...";
+
+"refil_mobile_ios" = "Refill Mobile";
+
+"register_ios" = "Continue";
+
+"release_to_refresh_chat_history_ios" = "Release to Refresh Chat History";
+
+"remove" = "Remove";
+
+"remove_photo" = "Remove photo";
+
+"remove_user_from_chat_msg" = "Remove %@ from the chat?";
+
+"remove_user_from_chat_title" = "Remove user";
+
+"remove_users_not_support" = "Deleting contacts is not yet supported by the server";
+
+"rerecord" = "Re-record";
+
+"restart_now_ios" = "Restart";
+
+"save" = "Save";
+
+"saving" = "Saving...";
+
+"saving_msg" = "Saving...";
+
+"scan_qr" = "Scan QR";
+
+"scan_qr_stop_ios" = "Stop scanning";
+
+"scroll_to_bottom_title" = "Scroll down";
+
+"search_by_name" = "Search by name";
+
+"search_chats_ios" = "CHATS";
+
+"search_contacts_ios" = "CONTACTS";
+
+"select_from_gallery" = "Choose from Gallery";
+
+"select_user" = "Select at least one user";
+
+"select_users" = "Select users";
+
+"send" = "Send";
+
+"send_audio" = "Send\naudio";
+
+"send_media_ios" = "Send media";
+
+"send_photo" = "Photo";
+
+"send_photo_question_ios" = "Are you sure you want to send this photo?";
+
+"send_read_ios" = "Send \"Read\" status";
+
+"send_video" = "Send\nvideo";
+
+"services_invalidate_msg" = "This service is temporarily unavailable";
+
+"settings" = "Settings";
+
+"add_business" = "Add Business";
+"add_robot" = "Create a robot";
+
+"share_ios" = "Public profile";
+
+"shop" = "Store";
+
+"silent_notifications_ios" = "Notification sound";
+
+"smilies_development_msg" = "Emoji are under development";
+
+"sound_notifications_setting_btn" = "Sound";
+
+"start_chat_with_msg" = "You started chat with";
+
+"started_chat_with_msg_ios" = "%@ You started chat with %@";
+
+"status_deliv" = "Delivered";
+
+"status_read" = "Seen";
+
+"status_sending" = "Sending...";
+
+"status_sent" = "Sent";
+
+"sticker_msg_ph" = "[sticker]";
+
+"stop_recording" = "Stop recording";
+
+"sync_preloader" = "Synchronization...";
+
+"take_image_err" = "Error: Error downloading image";
+
+"take_photo" = "Take a picture";
+
+"tell_friend" = "Tell friends about Sender";
+
+"tips_header_ios" = "Sender – a quick and easy way to communicate!";
+
+"today" = "Today";
+
+"transfer" = "Transfer";
+
+"try_again_err" = "Error! Please try again later!";
+
+"twitch" = "Wake";
+
+"twitch_ios" = "Wake";
+
+"unknown_user" = "Unknown user";
+
+"uploading_msg" = "Uploading...";
+
+"user_add_to_chat_msg" = "added to chat";
+
+"user_del_from_chat_msg" = "deleted from chat";
+
+"user_typing" = "typing";
+
+"user_typing_ios" = "%@ is typing...";
+
+"users_typing_ios" = "%@ are typing...";
+
+"vibro_chat" = "Vibrochat";
+
+"vibro_setting" = "Vibro";
+
+"video" = "Video\nmessage";
+
+"video_msg_ph" = "[video]";
+
+"voice" = "Audio\nmessage";
+
+"wait_msg" = "Waiting...";
+
+"welcome_ios" = "Welcome to Sender";
+
+"yes" = "Yes";
+
+"yesterday" = "Yesterday";
+
+"you" = "Me";
+
+"me_ntf" = "You";
+
+"you_add_to_chat_msg" = "You were added to the chat";
+
+"you_del_from_chat_msg" = "You were deleted from the chat";
+
+"you_have_gcm" = "You have";
+
+"you_leave_chat_msg" = "You left the chat";
+
+"yourself_dlg_err" = "You can't start a dialog with yourself";
+
+"vibro_notifications_ios" = "Vibration";
+"flash_notifications_ios" = "Flash";
+
+"unread_messages_notification_ios" = "You have unread messages";
+
+"connecting_ios" = "Connecting...";
+
+"tic_tac_toe_ios" = "Tic-tac-toe";
+"winnie_the_pooh_ios" = "Winnie-the-Pooh";
+"chess_ios" = "Chess";
+
+"transfer_ios" = "Send / Recive";
+
+"reg_success_ios" = "Congratulations, you have been registered at SENDER!";
+
+"wait_ivr_ios" = "In 3 minutes you will receive a call to %@. Answer the call and confirm authorization.";
+
+"terms_conditions_ios" = "Terms and conditions";
+
+"terms_file_name_ios" = "terms_and_conditions_en";
+
+"lst_msg_text_for_lc_location_ios" = "Location";
+
+"lst_msg_text_for_lc_image_msg_ph_ios" = "Photo";
+
+"lst_msg_text_for_lc_sticker_msg_ph_ios" = "Sticker";
+
+"lst_msg_text_for_lc_form_msg_ph_ios" = "Form";
+
+"lst_msg_text_for_lc_video_ios" = "Video";
+
+"lst_msg_text_for_lc_voice_message_ios" = "Audio message";
+
+"lst_msg_text_for_lc_vibro_msg_ph_ios" = "Vibrochat";
+
+"lst_msg_text_for_lc_file_ios" = "File";
+
+"lst_msg_text_for_lc_encrypted_text_ios" = "Encrypted message";
+
+"contact_name_ph_ios" = "Name";
+
+"contact_info_ph_ios" = "Additional info";
+
+"fast_navigation_ios" = "Fast transitions across screens";
+
+"comfortable_console_ios" = "Comfortable and functional console";
+
+"easy_company_access_ios" = "Easy access to companies in your address book";
+
+"dismiss_ios" = "Dismiss";
+
+"launching_app_ios" = "Launching application";
+
+"contact_sync_ios" = "Syncing contacts";
+
+"chat_sync_ios" = "Syncing chats";
+
+"preparing_ios" = "Preparing application";
+
+"favorite_contacts_ios" = "Favorites";
+"sender_contacts_ios" = "People";
+"companies_contacts_ios" = "Business";
+"other_contacts_ios" = "Other";
+"groups_contacts_ios" = "Groups";
+"act_block_user_ios" = "Block";
+"complain_ios" = "Complain";
+"complaint_reason_ios" = "Reason of Complaint";
+
+"blocked_users_ios" = "Blacklist";
+"act_unblock_user_ios" = "Unblock";
+
+"accept_ios" = "Accept";
+"decline_ios" = "Decline";
+
+"transfer_menu_ios" = "Money\ntransfer";
+"refill_menu_ios" = "Refill\nmobile";
+"qr_menu_ios" = "QR\nauthorization";
+"wallet_menu_ios" = "My\ncards";
+
+"error_public_chat_with_company_ios" = "You cannot add more than one company to chat";
+
+"select_person_ios" = "Select at least one user";
+
+"add_contact_wrong_number_title_ios" = "Cannot add contact";
+"add_contact_wrong_number_desc_ios" = "To add a contact, please enter name and phone number in international format";
+
+"location_settings_title_ios" = "Location Monitoring";
+"sound_settings_title_ios" = "Sound";
+"reset_settings_title_ios" = "Reset";
+
+"add_participant_ios" = "Add Participant";
+"leave_chat_ios" = "Leave Chat";
+"set_favorite" = "Add to Favorites";
+"remove_favorite" = "Remove from Favorites";
+"turn_on" = "Turn on";
+"turn_off" = "Turn off";
+"messages" = "Messages";
+"sound" = "Sound";
+"search" = "Search";
+
+"select_user_ios" = "Select Contact";
+"select_users_ios" = "Select Contacts";
+
+"edit_chat_ios" = "Edit Chat";
+
+"new_contact_phone_ph_ios" = "Phone number";
+
+"online" = "Online";
+"offline" = "Offline";
+
+"chat_name_ios" = "Chat Title";
+"add_to_contacts_ios" = "Add to Contacts";
+
+"leave_chat_specific_ios" = "Leave chat \"%@?\"";
+"leave_chat_specific_message_ios" = "Are you sure you want to leave chat \"%@\"?";
+
+"delete_chat_specific_ios" = "Delete chat \"%@?\"";
+"delete_chat_specific_message_ios" = "Are you sure you want to delete chat \"%@\"?";
+
+"notification_preview_show" = "Show Text in Notificaitons";
+"notification_preview_hide" = "Hide Text in Notificaitons";
+
+"speaker_ios" = "Speaker";
+"record_call_ios" = "Record Call";
+"stop_record_call_ios" = "Stop Recording";
+
+"Location Permission Title" = "Location access";
+"Location Permission Text" = "Turning on location services, you get access to additional functionality such as \"Share my location\" or \"Order a taxi\". All transferred data is confidential and won't be available to third persons without user's permission.";
+
+"pull_to_load_history" = "Pull To Load History";
+
+//QR
+
+"qr_my_number_tip" = "after scanning you will be added to contacts";
+"qr_title_my_code" = "My QR Code";
+"qr_title_scan" = "Scan QR Code";
+"qr_title_show_code" = "Show QR Code";
+
+//Bitcoin
+
+"bitcoin_wallet" = "Bitcoin Wallet";
+"bitcoin_error_not_enough_funds" = "You don't have enough funds on your wallet";
+"bitcoin_error_unknown" = "Can't perform your transaction now. Please try again later";
+
+"bitcoin_wallet_create_error" = "";
+
+"Bitcoin allert text1" = "У Вас уже есть Bitcoin кошелек в системе SENDER.\nДля его активации пройдите процедуру экпорта кошелька в настройках (Главная страница - настройки - Bitcoin wallet) на ранее зарегистрированном устройстве.\nАктивация кошелька даст доступ к таким функиям приложения как оплата в сети Bitcoin и шифрование сообщений.\nВы можете сделать это позже, в любое удобное время.";
+
+
+"Bitcoin allert text2" = "Bitcoin wallet успешно создан!\nТеперь у Вас есть доступ к таким функиям приложения как оплата в сети Bitcoin и шифрование сообщений.";
+"Bitcoin export complite" = "Експорт кошелька успешно завершен";
+
+"bitcoin_wallet_export" = "Export Wallet";
+"bitcoin_wallet_import" = "Import Wallet";
+"bitcoin_wallet_create_new" = "Create New wallet";
+
+"bitcoin_wallet_sync_title" = "Wallet Synchronization";
+"bitcoin_wallet_export_title" = "Wallet Export";
+"bitcoin_wallet_import_title" = "Wallet Import";
+
+"bitcoin_create_new_alert_title" = "Create DS key";
+"bitcoin_create_new_alert_message" = "If you create a new DS key it will replace the existing one. Are you sure you want to create a new DS key?";
+
+"bitcoin_create_button_text" = "Delete and Create New";
+
+"bitcoin_address" = "Address:";
+
+"btc_ccy" = "btc";
+"usd_ccy" = "usd";
+
+"bitcoin_getting_balance" = "Getting balance...";
+
+"bitcoin_enter_word" = "Enter a word";
+"bitcoin_enter_word_count_text" = "Words %@ of %@";
+
+"bitcoin_wrong_mnemonic_title" = "Wrong Mnemonic";
+"bitcoin_wrong_mnemonic_message" = "Check your input and try again";
+
+"bitcoin_import_button_text" = "Delete and Import New";
+"bitcoin_import_alert_title" = "Import wallet";
+"bitcoin_import_alert_message" = "If you import a wallet it will replace the existing one. All money on your current wallet will be lost. Are you sure you want to import a wallet?";
+
+"bitcoin_cannot_get_wallet" = "Cannot get your wallet";
+"bitcoin_no_address" = "No Address";
+
+"bitcoin_enter_password_title" = "Enter DS key";
+"bitcoin_enter_password_message" = "Enter DS key you have created during registration";
+"bitcoin_enter_password_textfield_placeholder" = "DS key";
+
+"bitcoin_enter_password_submit_button_title" = "Submit";
+
+"bitcoin_change_synchronization_password" = "Change DS key";
+"bitcoin_enter_remote_synchronization_password" = "Enter DS key you've created on other device";
+"bitcoin_enter_local_synchronization_password" = "Enter DS key you've set on this device";
+"bitcoin_enter_synchronization_password" = "Enter Electronic digital signature key\n(DS key)";
+"bitcoin_enter_old_password" = "Enter your current Electronic digital signature key\n(DS key)";
+"bitcoin_enter_new_password" = "Enter your new DS key";
+"bitcoin_repeat_new_password" = "Repeat your new DS key";
+
+"bitcoin_use_current_wallet" = "Use current wallet";
+
+"bitcoin_entered_wrong_password" = "You entered incorrect DS key";
+"bitcoin_entered_passwords_not_match" = "DS key does not match the one you've entered on previous step";
+
+"bitcoin_remote_wallet" = "Wallet from server (Recommended)";
+"bitcoin_local_wallet" = "Local wallet";
+"bitcoin_new_wallet" = "New wallet";
+"bitcoin_accept" = "Accept";
+
+"bitcoin_need_sync_alert_title" = "Something has changed";
+"bitcoin_need_sync_alert_message" = "You bitcoin-wallet has been changed. Enter the DS key, you have set on this device to use encrypted chats.";
+"bitcoin_need_sync_go_to_settings" = "Go to Settings";
+"bitcoin_need_sync_later" = "Sync Later";
+
+"bitcoin_password" = "Password";
+
+"bitcoin_sending_error" = "Cannot send Bitcoin. Please, try again later";
+
+//Password Creation
+
+"use_long_password" = "Use long password";
+"wrong_bitcoin_password_format" = "Password must be at least 4 characters long";
+"password_enter_other" = "Enter other password";
+"password_create_new" = "Create new password";
+"enter_sync_pass" = "Create password for synchronization";
+"create_pass_descr" = "* Remember this password. Never tell it to anyone. The password is used for personal data restore and synchronization of your new devices. Information about password won’t be transferred to server.";
+"enter_pass_descr" = "* Enter the password you created during the first activation of SENDER to decrypt your personal data such as encryption keys and payment wallet. Information about password won’t be transferred to server.";
+
+"Encryption" = "Encryption";
+"Create password" = "Enter password";
+"Пароль не совпадает" = "Password dismatch";
+"Password is too short" = "Password is too short";
+"Minimum length of 4 characters" = "Minimum length of 4 characters";
+
+"lst_msg_text_for_lc_deleted_ios" = "This message has been deleted";
+
+//Auth server errors
+
+"error_send_ivr" = "IVR service error";
+"error_count_otp" = "You have exceeded the number of attempts to enter OTP";
+"error_timeout_otp" = "You have exceeded the time to enter OTP";
+"error_wrong_otp" = "You have entered incorrect SMS code";
+"error_blocked" = "You cannot log in to SENDER right now. Please try again later";
+"error_wrong_phone" = "Enter correct phone number in international format";
+"error_timeout" = "You have exceeded the time to pass the authorization";
+"error_unknown" = "Authorization error. Please, try again later";
+
+//Chat Settings
+
+"chat_settings_members" = "Members";
+"chat_settings_encryption" = "Encryption";
+"chat_settings_add_participant" = "Add Participant";
+"chat_settings_favorite_chat" = "Favorite Chat";
+"chat_settings_block" = "Block";
+"chat_settings_unblock" = "Unblock";
+"chat_settings_sound_scheme" = "Sound Scheme";
+"chat_settings_sound" = "Disable Sound";
+"chat_settings_notifications" = "Disable Notifications";
+"chat_settings_smart_notifications" = "Smart Notifications";
+"chat_settings_hide_text" = "Hide Text";
+"chat_settings_counter" = "Hide Counter";
+"chat_settings_notifications_sound" = "Notifications and Sound";
+"chat_settings_add_to_contacts" = "Add to Contacts";
+"chat_settings_leave_chat" = "Leave Chat";
+
+"chat_settings_all_devices" = "All Devices";
+"chat_settings_this_device" = "This Device";
+"chat_settings_disabled" = "No";
+
+"chat_settings_sound_scheme_default" = "Default";
+"chat_settings_sound_scheme_business" = "Business";
+"chat_settings_sound_scheme_personal" = "Personal";
+"chat_settings_sound_scheme_alert" = "Alert";
+
+"chat_settings_text" = "Text";
+"chat_settings_call" = "Call";
+"chat_settings_transfer" = "Transfer";
+"chat_settings_top_up" = "Top Up";
+
+"chat_settings_user_name_placeholder" = "Name";
+"chat_settings_user_description_placeholder" = "Description";
+
+"chat_settings_work_phone_description" = "Work";
+
+//Enter Phone Number
+
+"enter_phone_title" = "Check country code and enter phone number";
+"user_agreement_hint" = "By pressing \"CONTINUE\", you confirm that you have read and you agree with";
+"user_agreement_name" = "Terms of use";
+"default_country_name" = "Other";
+"user_agreement_title" = "Terms of use";
+
+//Global Search
+
+"global_search_separator_title" = "Global Search";
+
+//Chat
+
+"edit_message_title" = "Edit Message";
+"unable_to_edit_message_title" = "Unable to edit message";
+"unable_to_delete_message_title" = "Unable to delete message";
+
+"chat_member_%i" = "%i Member";
+"chat_members_%i" = "%i Members";
+
+"chat_screen_title" = "Chat";
+
+//Full Version
+
+"full_version_already_on" = "Full version is already on on your device";
+"full_version_already_off" = "Full version is already off on your device";
+"full_version_change_unknown_error" = "Unknown error. Please, try again later";
+
+"encryption_restricted_mode_unavailable_alert_title" = "Encryption Is Unavailable In Restricted Mode";
+"encryption_restricted_mode_unavailable_alert_message" = "Please, turn on full version of SENDER to use encrypted chats and documents signing";
+
+//Google Sign In
+
+"google_sign_in_not_enabled" = "Google sign in is not enabled";
+"google_sign_cannot_get_user" = "Cannot get Google user";
+"google_sign_cannot_save_user" = "Cannot save Google user";
+
+//BitSign
+
+"bit_sign_signing_error" = "Cannot sign document";
+
+//FML Actions
+
+"fml_text_was_copied" = "Text was copied to clipboard";
+
+//Chat Notifications
+
+"notify_you_add_%@_to_chat" = "You added %@ to the chat";
+"notify_user_%@_add_%@_to_chat" = "%@ added %@ to the chat";
+"notify_user_%@_add_to_chat_you" = "%@ added you to the chat";
+"notify_user_%@_add_to_chat_you_and_%@" = "%@ added you and %@ to the chat";
+
+"notify_you_del_%@_from_chat" = "You deleted %@ from the chat";
+"notify_user_%@_del_%@_from_chat" = "%@ deleted %@ from the chat";
+"notify_user_%@_del_from_chat_you" = "%@ deleted you from the chat";
+"notify_user_%@_del_from_chat_you_and_%@" = "%@ deleted you and %@ from the chat";
+
+"notify_user_%@_leave_chat" = "%@ left the chat";
+"notify_you_leave_chat" = "You left the chat";
+
+"notify_%i_users" = "%i users";
+
+"notify_user_%@_enabled_encryption" = "%@ enabled chat encryption";
+"notify_user_%@_disabled_encryption" = "%@ disabled chat encryption";
+
+"notify_you_enabled_encryption" = "You enabled chat encryption";
+"notify_you_disabled_encryption" = "You disabled chat encryption";

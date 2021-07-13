@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Xcode 4.3">
+    <entity name="BarItem" representedClassName="BarItem" syncable="YES">
+        <attribute name="actions" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="barID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icon2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="BarModel" representedClassName="BarModel" syncable="YES">
+        <attribute name="initdata" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="maintextColor" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="barItem" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BarItem" syncable="YES"/>
+    </entity>
+    <entity name="Contact" representedClassName="Contact" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bitcoinAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="blocked" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descript" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favuser" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="hideuser" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isOnline" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="localImageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="msgKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="p2pdialogid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tagsarray" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="chats" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dialog" inverseName="members" inverseEntity="Dialog" syncable="YES"/>
+        <relationship name="contactpage" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Message" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Item" syncable="YES"/>
+        <relationship name="sendbar" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="BarModel" syncable="YES"/>
+    </entity>
+    <entity name="Dialog" representedClassName="Dialog" syncable="YES">
+        <attribute name="blockchat" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="blocksound" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="companyId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="description_chat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="encrypted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="favchat" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="hidemessage" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="imgUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="last_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lastMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messagecount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="moId" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="needSync" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="p2p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="smartNotify" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="tagsarray" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unreadmessages" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Contact" inverseName="chats" inverseEntity="Contact" syncable="YES"/>
+        <relationship name="messages" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Message" inverseName="dialog" inverseEntity="Message" syncable="YES"/>
+        <relationship name="owner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Owner" inverseName="dialogs" inverseEntity="Owner" syncable="YES"/>
+    </entity>
+    <entity name="Favorit" representedClassName="Favorit" syncable="YES">
+        <attribute name="actionKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iconData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="needSync" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="owner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Owner" inverseName="favorits" inverseEntity="Owner" syncable="YES"/>
+    </entity>
+    <entity name="File" representedClassName="File" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="from" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fromName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDownloaded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="localUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prev_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FileKeeper" representedClassName="FileKeeper" syncable="YES">
+        <attribute name="downloadmode" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="extmainurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extpreviewurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filedescr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filetype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="finished" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="localmainurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="localpreviewurl" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES">
+        <attribute name="type" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Message" representedClassName="Message" syncable="YES">
+        <attribute name="chat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="classRef" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="deliver" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="encrypted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="formId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fromId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fromname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lasttext" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modelData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="moId" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="packetID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="procId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="robotId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dialog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Dialog" inverseName="messages" inverseEntity="Dialog" syncable="YES"/>
+        <relationship name="file" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="File" syncable="YES"/>
+        <relationship name="filekepper" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="FileKeeper" syncable="YES"/>
+    </entity>
+    <entity name="Owner" representedClassName="Owner" syncable="YES">
+        <attribute name="aid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="auth" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="bwalletstate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companies" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="device" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ownimgurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="privateKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="publicKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="regDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="regionCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderChatId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sipLogin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncContacts" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="syncDialogs" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="syncFavorits" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="contacts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Contact" syncable="YES"/>
+        <relationship name="dialogs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Dialog" inverseName="owner" inverseEntity="Dialog" syncable="YES"/>
+        <relationship name="favorits" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Favorit" inverseName="owner" inverseEntity="Favorit" syncable="YES"/>
+        <relationship name="settings" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Settings" inverseName="owner" inverseEntity="Settings" syncable="YES"/>
+    </entity>
+    <entity name="Settings" representedClassName="Settings" syncable="YES">
+        <attribute name="adultContent" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="messageFilter" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="notificationsFlash" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="notificationsSound" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="notificationsVibration" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="personalBackgrounds" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sendRead" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sounds" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="owner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Owner" inverseName="settings" inverseEntity="Owner" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BarItem" positionX="-6012" positionY="-1161" width="128" height="120"/>
+        <element name="BarModel" positionX="-6174" positionY="-1224" width="128" height="90"/>
+        <element name="Contact" positionX="-6194" positionY="-1203" width="128" height="390"/>
+        <element name="Dialog" positionX="-5537" positionY="-1048" width="128" height="375"/>
+        <element name="Favorit" positionX="-6030" positionY="-981" width="128" height="120"/>
+        <element name="File" positionX="-5321" positionY="-1395" width="128" height="180"/>
+        <element name="FileKeeper" positionX="-5112" positionY="-1044" width="128" height="180"/>
+        <element name="Item" positionX="-6399" positionY="-1215" width="128" height="75"/>
+        <element name="Message" positionX="-5292" positionY="-1161" width="128" height="360"/>
+        <element name="Owner" positionX="-5823" positionY="-1314" width="128" height="420"/>
+        <element name="Settings" positionX="-5492" positionY="-1395" width="128" height="210"/>
+    </elements>
+</model>

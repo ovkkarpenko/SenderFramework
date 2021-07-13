@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="eOP-a2-OeX" customClass="SBTextItemView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tl-oG-1Jv" customClass="SBTextView">
+                    <rect key="frame" x="8" y="8" width="259" height="134"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="259" id="NNL-3K-Zry"/>
+                        <constraint firstAttribute="height" constant="134" id="YoN-AZ-yiO"/>
+                    </constraints>
+                    <color key="textColor" red="0.1137254902" green="0.0" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <outlet property="delegate" destination="eOP-a2-OeX" id="x5p-DW-XoF"/>
+                    </connections>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9j4-hy-rMo" userLabel="Send Button">
+                    <rect key="frame" x="267" y="97" width="45" height="53"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="55" id="6DU-wI-2R8"/>
+                        <constraint firstAttribute="height" constant="53" id="uVa-Wj-glK"/>
+                    </constraints>
+                    <color key="tintColor" red="0.58146369460000003" green="0.58146369460000003" blue="0.58146369460000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" image="icSend"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="6DU-wI-2R8"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="send:" destination="eOP-a2-OeX" eventType="touchUpInside" id="XbO-m5-Jgd"/>
+                    </connections>
+                </button>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter message" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eit-q4-7Dv">
+                    <rect key="frame" x="8" y="113" width="221" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="221" id="Xsm-Yz-5fi"/>
+                        <constraint firstAttribute="height" constant="21" id="p0f-b8-lko"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.55294117649999996" green="0.55294117649999996" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="6tl-oG-1Jv" secondAttribute="bottom" constant="8" id="66k-B5-9dU"/>
+                <constraint firstAttribute="bottom" secondItem="Eit-q4-7Dv" secondAttribute="bottom" constant="16" id="Qrq-r4-9tm"/>
+                <constraint firstAttribute="bottom" secondItem="9j4-hy-rMo" secondAttribute="bottom" id="SJW-9g-DWI"/>
+                <constraint firstItem="9j4-hy-rMo" firstAttribute="leading" secondItem="6tl-oG-1Jv" secondAttribute="trailing" id="b8L-eO-cVw"/>
+                <constraint firstItem="Eit-q4-7Dv" firstAttribute="leading" secondItem="eOP-a2-OeX" secondAttribute="leading" constant="8" id="eG1-vk-mD1"/>
+                <constraint firstAttribute="trailing" secondItem="9j4-hy-rMo" secondAttribute="trailing" constant="8" id="ej8-a3-CkM"/>
+                <constraint firstItem="6tl-oG-1Jv" firstAttribute="leading" secondItem="eOP-a2-OeX" secondAttribute="leading" constant="8" id="nf9-Gu-6HJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="translatesAutoresizingMaskIntoConstraints" value="NO"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="actionButton" destination="9j4-hy-rMo" id="XIe-Pi-NTT"/>
+                <outlet property="enterMessageLabel" destination="Eit-q4-7Dv" id="k9a-uL-oH1"/>
+                <outlet property="inputField" destination="6tl-oG-1Jv" id="3en-X6-4yT"/>
+                <outlet property="inputFieldHeight" destination="YoN-AZ-yiO" id="Gy6-SH-ecJ"/>
+                <outlet property="inputFieldLeftOffset" destination="nf9-Gu-6HJ" id="kEX-KQ-IcX"/>
+                <outlet property="inputFieldWidth" destination="NNL-3K-Zry" id="pu8-bX-w4l"/>
+            </connections>
+            <point key="canvasLocation" x="-170" y="149"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icSend" width="26" height="26"/>
+    </resources>
+</document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13526" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13524"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="AWX-lj-2Rd" customClass="P2PChatSettingsProfileActionButton" customModule="SenderFramework">
+            <rect key="frame" x="0.0" y="0.0" width="73" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Написать" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcp-my-NbG">
+                    <rect key="frame" x="0.0" y="51.5" width="73" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRE-9o-Aqc">
+                    <rect key="frame" x="17.5" y="5" width="38" height="38"/>
+                    <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="38" id="GKo-nv-pOU"/>
+                        <constraint firstAttribute="height" constant="38" id="ehv-Ox-o5U"/>
+                    </constraints>
+                    <state key="normal" title="💬"/>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HRE-9o-Aqc" secondAttribute="trailing" constant="8" id="8id-Gb-xe8"/>
+                <constraint firstItem="hcp-my-NbG" firstAttribute="top" secondItem="HRE-9o-Aqc" secondAttribute="bottom" constant="8" id="BRq-mJ-fc0"/>
+                <constraint firstItem="HRE-9o-Aqc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="AWX-lj-2Rd" secondAttribute="leading" constant="8" id="MVK-5R-5JI"/>
+                <constraint firstAttribute="trailing" secondItem="hcp-my-NbG" secondAttribute="trailing" id="QvP-hV-r8J"/>
+                <constraint firstItem="HRE-9o-Aqc" firstAttribute="top" relation="greaterThanOrEqual" secondItem="TRK-qA-De5" secondAttribute="top" id="j3t-fx-Ood"/>
+                <constraint firstItem="HRE-9o-Aqc" firstAttribute="centerX" secondItem="hcp-my-NbG" secondAttribute="centerX" id="oBG-E7-SDC"/>
+                <constraint firstItem="hcp-my-NbG" firstAttribute="leading" secondItem="AWX-lj-2Rd" secondAttribute="leading" id="uxi-Hu-vHn"/>
+                <constraint firstAttribute="bottom" secondItem="hcp-my-NbG" secondAttribute="bottom" id="yf1-BL-Ta3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="TRK-qA-De5"/>
+            <connections>
+                <outlet property="button" destination="HRE-9o-Aqc" id="YTN-Kr-bYE"/>
+                <outlet property="titleLabel" destination="hcp-my-NbG" id="FZb-8v-QZa"/>
+            </connections>
+            <point key="canvasLocation" x="-7.5" y="400"/>
+        </view>
+    </objects>
+</document>

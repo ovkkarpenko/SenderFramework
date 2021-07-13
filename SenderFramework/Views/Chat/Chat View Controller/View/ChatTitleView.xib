@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13526"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MWChatTitleView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OUg-3t-CsI">
+                    <rect key="frame" x="0.0" y="3.5" width="375" height="37"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IGX-IK-TgC">
+                            <rect key="frame" x="142" y="21" width="91" height="16"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat Subtitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i44-Px-ZK5">
+                                    <rect key="frame" x="12" y="0.0" width="79" height="16"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="800" verticalCompressionResistancePriority="200" image="icLock" translatesAutoresizingMaskIntoConstraints="NO" id="UWi-q0-Sbs">
+                                    <rect key="frame" x="0.0" y="2" width="10" height="12"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="10" id="BZ9-00-DXa"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="i44-Px-ZK5" firstAttribute="top" secondItem="IGX-IK-TgC" secondAttribute="top" id="4Wh-Ul-3UL"/>
+                                <constraint firstItem="i44-Px-ZK5" firstAttribute="leading" secondItem="UWi-q0-Sbs" secondAttribute="trailing" constant="2" id="B8h-jD-2sD"/>
+                                <constraint firstItem="UWi-q0-Sbs" firstAttribute="top" relation="greaterThanOrEqual" secondItem="IGX-IK-TgC" secondAttribute="top" id="LJn-ew-0uy"/>
+                                <constraint firstItem="UWi-q0-Sbs" firstAttribute="leading" secondItem="IGX-IK-TgC" secondAttribute="leading" id="YrX-bv-keV"/>
+                                <constraint firstAttribute="trailing" secondItem="i44-Px-ZK5" secondAttribute="trailing" id="bHC-sA-Nrb"/>
+                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="UWi-q0-Sbs" secondAttribute="bottom" id="mYx-hl-mc3"/>
+                                <constraint firstItem="i44-Px-ZK5" firstAttribute="centerY" secondItem="UWi-q0-Sbs" secondAttribute="centerY" id="rT2-Qo-OFr"/>
+                                <constraint firstAttribute="bottom" secondItem="i44-Px-ZK5" secondAttribute="bottom" id="v5M-Bp-RQ5"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOC-PI-sS5">
+                            <rect key="frame" x="149" y="0.0" width="78" height="21"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <inset key="contentEdgeInsets" minX="-0.01" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Chat Title">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="chatTitlePressedWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="5hN-6A-dhg"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="800" image="icChatDetail" translatesAutoresizingMaskIntoConstraints="NO" id="PlZ-7k-HW6">
+                            <rect key="frame" x="232" y="4.5" width="8" height="13"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="IGX-IK-TgC" firstAttribute="top" secondItem="KOC-PI-sS5" secondAttribute="bottom" id="7UA-ni-uqw"/>
+                        <constraint firstAttribute="bottom" secondItem="IGX-IK-TgC" secondAttribute="bottom" id="822-tg-QPR"/>
+                        <constraint firstItem="IGX-IK-TgC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="OUg-3t-CsI" secondAttribute="leading" id="OPg-Hr-aoe"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="PlZ-7k-HW6" secondAttribute="trailing" id="Ooz-1p-Yw0"/>
+                        <constraint firstItem="KOC-PI-sS5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="OUg-3t-CsI" secondAttribute="leading" id="QEH-cQ-iRG"/>
+                        <constraint firstItem="IGX-IK-TgC" firstAttribute="centerX" secondItem="OUg-3t-CsI" secondAttribute="centerX" id="U3r-wJ-g35"/>
+                        <constraint firstItem="KOC-PI-sS5" firstAttribute="top" secondItem="OUg-3t-CsI" secondAttribute="top" id="drn-Vo-g00"/>
+                        <constraint firstItem="PlZ-7k-HW6" firstAttribute="leading" secondItem="KOC-PI-sS5" secondAttribute="trailing" constant="5" id="eCz-HS-dz5"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="IGX-IK-TgC" secondAttribute="trailing" id="jIU-yr-6p5"/>
+                        <constraint firstItem="KOC-PI-sS5" firstAttribute="centerX" secondItem="OUg-3t-CsI" secondAttribute="centerX" id="nEn-fM-mbd"/>
+                        <constraint firstItem="PlZ-7k-HW6" firstAttribute="centerY" secondItem="KOC-PI-sS5" secondAttribute="centerY" id="uyV-5K-bER"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="OUg-3t-CsI" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" constant="3.5" id="68l-gT-xoI"/>
+                <constraint firstItem="OUg-3t-CsI" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ARK-BK-fkd"/>
+                <constraint firstItem="OUg-3t-CsI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="LzC-jc-80o"/>
+                <constraint firstAttribute="trailing" secondItem="OUg-3t-CsI" secondAttribute="trailing" id="bWr-F4-bAu"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OUg-3t-CsI" secondAttribute="bottom" constant="3.5" id="o0q-dQ-VR9"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="detailImageView" destination="PlZ-7k-HW6" id="4Bt-9u-czJ"/>
+                <outlet property="lockImage" destination="UWi-q0-Sbs" id="cv2-lE-SwG"/>
+                <outlet property="lockImageWidth" destination="BZ9-00-DXa" id="eZr-sg-laA"/>
+                <outlet property="subtitleBackground" destination="IGX-IK-TgC" id="rml-Ui-LcV"/>
+                <outlet property="subtitleLabel" destination="i44-Px-ZK5" id="Yt3-1f-yiN"/>
+                <outlet property="titleButton" destination="KOC-PI-sS5" id="DW1-qQ-gft"/>
+            </connections>
+            <point key="canvasLocation" x="-329.5" y="-116"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icChatDetail" width="8" height="13"/>
+        <image name="icLock" width="10" height="12"/>
+    </resources>
+</document>

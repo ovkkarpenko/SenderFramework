@@ -1,0 +1,23 @@
+//
+//  SenderFramework-PrefixHeader.pch
+//  SENDER
+//
+//  Created by Valentin Dumareckii on 9/20/16.
+//  Copyright © 2016 Middleware Inc. All rights reserved.
+//
+
+#ifndef SenderFramework_PrefixHeader_pch
+#define SenderFramework_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <SenderFramework/SenderConstants.h>
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "SenderCore.h"
+#import "UIImage+SenderFrameworkLoading.h"
+#import "NSBundle+SenderFrameworkLoading.h"
+#import "SenderFrameworkGlobals.h"
+
+#endif /* SenderFramework_PrefixHeader_pch */
